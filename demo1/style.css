@@ -1,0 +1,44 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background: #fff0f5;
+}
+
+section {
+  margin-top: 80px;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  padding: 12px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 20px;
+  background: pink;
+  cursor: pointer;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#modal {
+  position: fixed;
+  top:0;left:0;right:0;bottom:0;
+  background: rgba(0,0,0,0.7);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.modal-box {
+  background:white;
+  padding:20px;
+  border-radius:10px;
+  width:300px;
+}
